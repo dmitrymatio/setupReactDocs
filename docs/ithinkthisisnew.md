@@ -5,22 +5,22 @@ nav_order: 2
 ---
 
 # Configuration
+
 {: .no_toc }
 
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
+Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
-
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
+View this site's [\_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
 
 ## Site logo
 
@@ -38,7 +38,6 @@ search_enabled: true
 
 # Enable support for hyphenated search words:
 search_tokenizer_separator: /[\s/]+/
-
 ```
 
 ## Aux links
@@ -64,7 +63,7 @@ heading_anchors: true
 
 ```yaml
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+footer_content: 'Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href="https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt">MIT license.</a>'
 ```
 
 ## Color scheme
@@ -73,6 +72,7 @@ footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: "dark"
 ```
+
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
 
 <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
