@@ -52,14 +52,14 @@ These instruction use the following typographic conventions:
 This guide uses notes and warning message to convey additional about an instructional step.
 
 <div style="margin-left: 50px; display: flex; align-items: center;">
-    <img src="./image/iconfinder_v-31_3162614.png"
+    <img src="./img/iconfinder_v-31_3162614.png"
       alt="note"
       style=" margin-right: 30px; width: 64px;" />
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"><strong>Note: </strong>Note provides additional information about a step. The message will be enclosed in a 2px width solid line box, and the note icon is an "i" inside a hollow circle.</article>
 </div>
 <br>
 <div style="margin-left: 50px; display: flex; align-items: center;">
-    <img src="./image/iconfinder_alert_1282954.png"
+    <img src="./img/iconfinder_alert_1282954.png"
       alt="alert"
       style=" margin-right: 30px; width: 64px;" />
       <article style="border: 2px dashed black; box-sizing: border-box; padding: 5px;"><strong>Warning: </strong>Warning provide information about instructions that can cause an error or permanently data lost. The message will be enclosed in a 2px wide dashed box, and the warning icon is an "!" inside a red triangle and red circle.</article>
