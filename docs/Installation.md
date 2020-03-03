@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Configuration
-nav_order: 3
+title: Installation
+nav_order: 2
 ---
 
-# Configuration
+# Installation
 {: .no_toc }
 
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
+A step by step instruction on how to install the required software for setting up the react environment from scratch{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -19,8 +18,12 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 ---
 
-
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
+<div style="margin-left: 50px; display: flex; align-items: center;">
+    <img src="../image/iconfinder_v-31_3162614.png"
+      alt="note"
+      style=" margin-right: 30px; width: 64px;" />
+      <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"><strong>Note: </strong>The following step requires you to have basic knowledge about HTML CSS and Javascript. Moreover, a basic understanding of ES6 features, such as let, const, arrow function.</article>
+</div>
 
 ## Site logo
 

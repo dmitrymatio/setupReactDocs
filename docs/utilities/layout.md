@@ -21,7 +21,7 @@ nav_order: 2
 These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively.
 
 | Classname prefix | What it does                  |
-|:-----------------|:------------------------------|
+| :--------------- | :---------------------------- |
 | `.m-`            | `margin`                      |
 | `.mx-`           | `margin-left`, `margin-right` |
 | `.my-`           | `margin top`, `margin bottom` |
@@ -31,7 +31,7 @@ These spacers are available to use for margins and padding with responsive utili
 | `.ml-`           | `margin-left`                 |
 
 | Classname prefix | What it does                    |
-|:-----------------|:--------------------------------|
+| :--------------- | :------------------------------ |
 | `.p-`            | `padding`                       |
 | `.px-`           | `padding-left`, `padding-right` |
 | `.py-`           | `padding top`, `padding bottom` |
@@ -42,16 +42,16 @@ These spacers are available to use for margins and padding with responsive utili
 
 Spacing values are based on a `1rem = 16px` spacing scale, broken down into these units:
 
-| Spacer/suffix  | Size in rems  | Rem converted to px |
-|:---------------|:--------------|:--------------------|
-| `1`            | 0.25rem       | 4px                 |
-| `2`            | 0.5rem        | 8px                 |
-| `3`            | 0.75rem       | 12px                |
-| `4`            | 1rem          | 16px                |
-| `5`            | 1.5rem        | 24px                |
-| `6`            | 2rem          | 32px                |
-| `7`            | 2.5rem        | 40px                |
-| `8`            | 3rem          | 48px                |
+| Spacer/suffix | Size in rems | Rem converted to px |
+| :------------ | :----------- | :------------------ |
+| `1`           | 0.25rem      | 4px                 |
+| `2`           | 0.5rem       | 8px                 |
+| `3`           | 0.75rem      | 12px                |
+| `4`           | 1rem         | 16px                |
+| `5`           | 1.5rem       | 24px                |
+| `6`           | 2rem         | 32px                |
+| `7`           | 2.5rem       | 40px                |
+| `8`           | 3rem         | 48px                |
 
 #### Examples
 {: .no_toc }
@@ -68,21 +68,21 @@ This paragraph will have 2rem/32px of padding on the right and left at all scree
 
 ## Vertical Alignment
 
-| Classname              | What it does                    |
-|:-----------------------|:--------------------------------|
-| `.v-align-baseline`    | `vertical-align: baseline`      |
-| `.v-align-bottom`      | `vertical-align: bottom`        |
-| `.v-align-middle`      | `vertical-align: middle`        |
-| `.v-align-text-bottom` | `vertical-align: text-bottom`   |
-| `.v-align-text-top`    | `vertical-align: text-top`      |
-| `.v-align-top`         | `vertical-align: top`           |
+| Classname              | What it does                  |
+| :--------------------- | :---------------------------- |
+| `.v-align-baseline`    | `vertical-align: baseline`    |
+| `.v-align-bottom`      | `vertical-align: bottom`      |
+| `.v-align-middle`      | `vertical-align: middle`      |
+| `.v-align-text-bottom` | `vertical-align: text-bottom` |
+| `.v-align-text-top`    | `vertical-align: text-top`    |
+| `.v-align-top`         | `vertical-align: top`         |
 
 ## Display
 
 Display classes aid in adapting the layout of the elements on a page:
 
 | Class             |                         |
-|:------------------|:------------------------|
+| :---------------- | :---------------------- |
 | `.d-block`        | `display: block`        |
 | `.d-flex`         | `display: flex`         |
 | `.d-inline`       | `display: inline`       |
