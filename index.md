@@ -44,7 +44,7 @@ These instruction use the following typographic conventions:
 | Commands & Actions:<br><br> We bold words that use as a command or action you must follow                                                                 | <strong>Copy, paste, Save As, Quit, Return, Press, Click</strong> |
 | Menu & Button Sequence: <br><br> Menu and button will get enclosed by square brackets. The `>` will indicate the button click flow of the button or menu. | [File] > [New File]                                               |
 | Windows:<br><br> General window and Dialog window will get enclosed by double quotation mark                                                              | "Terminal"                                                        |
-| Code:<br><br> Code that runs within the terminal will get enclosed by back-tic                                                                            | `npm i nodemon --save-dev`                                        |
+| Single line of Code:<br><br> Code that runs within the terminal will get enclosed by back-tic                                                             | `npm i nodemon --save-dev`                                        |
 | SoftWare:<br><br> SoftWare that needs to download in local machine will get enclosed by rounded bracket                                                   | (nodemon)                                                         |
 
 ### Note & Warning message

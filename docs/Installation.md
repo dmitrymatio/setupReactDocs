@@ -7,8 +7,8 @@ nav_order: 2
 # Installation
 {: .no_toc }
 
-
-A step by step instruction on how to install the required software for setting up the react environment from scratch {: .fs-6 .fw-300 }
+{: .fs-6 .fw-300 }
+A step by step instruction on how to install the required software for setting up the react environment from scratch. By the end of this step you will have a empty react ready directory to work with.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -19,73 +19,47 @@ A step by step instruction on how to install the required software for setting u
 ---
 
 <div style="margin-left: 50px; display: flex; align-items: center;">
-    <img src="./../img/iconfinder_v-31_3162614.png"
+    <img src="./img/iconfinder_v-31_3162614.png"
       alt="note"
-      style=" margin-right: 30px; width: 64px;" />
+      style=" margin-right: 30px; width: 52px;" />
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"><strong>Note: </strong>The following step requires you to have basic knowledge about HTML CSS and Javascript. Moreover, a basic understanding of ES6 features, such as let, const, arrow function.</article>
 </div>
 
-## Site logo
+## Step 1 - create a root folder
 
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+Open your "Terminal" and enter the following code.
+
+```bash
+$ cd Desktop
+$ mkdir createReactApp
+$ cd creatReactApp
+$ code .
 ```
 
-## Search
+## Step 2 - create package.json file
+To create any module or use any third-party library, it is required to generate a package.json file. This file contains a version of the module that you installed before. Moreover, if you want to share your folder with the other developer, they will know what package you used for this project.  
 
-```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
-
-# Enable support for hyphenated search words:
-search_tokenizer_separator: /[\s/]+/
-
+```bash
+$ npm init -y
+$ touch .gitingore
 ```
 
-## Aux links
+## Step 3 - install React and react dom
+The (react) package provides the necessary method to define React components.
+The (react-dom) package provides DOM-specific(client side) methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to. 
 
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
+```bash
+$ npm i react --save
+$ npm i react-dom --save
+```
+Or you can just use one command
+
+```bash 
+$ npm i react react-dom --save
 ```
 
-## Heading anchor links
+## Step 4 - install webpack
 
-```yaml
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false/nil
-heading_anchors: true
-```
+## Step 5 - install babel
 
-## Footer content
 
-```yaml
-# Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
-```
-
-## Color scheme
-
-```yaml
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: "dark"
-```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
-
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
-
-## Google Analytics
-
-```yaml
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-5555555-55
-```
