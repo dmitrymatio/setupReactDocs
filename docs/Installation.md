@@ -18,7 +18,7 @@ A step by step instruction on how to install the required software for setting u
 ---
 
 <div style="margin-left: 50px; display: flex; align-items: center;">
-    <img src="https://raw.githubusercontent.com/dmitrymatio/setupReactDocs/gh-pages/docs/img/iconfinder_v-31_3162614.png"
+    <img src="raw.githubusercontent.com/dmitrymatio/setupReactDocs/gh-pages/docs/img/iconfinder_v-31_3162614.png"
       alt="note"
       style=" margin-right: 30px; width: 52px;" />
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"><strong>Note: </strong>The following step requires you to have basic knowledge about HTML CSS and Javascript. Moreover, a basic understanding of ES6 features, such as let, const, arrow function.</article>
