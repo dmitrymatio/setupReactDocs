@@ -7,9 +7,7 @@ nav_order: 3
 # Configuration
 {: .no_toc }
 
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
+The following are steps to configure the React environment.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -18,71 +16,106 @@ Just the Docs has some specific configuration parameters that can be defined in 
 {:toc}
 
 ---
+## Step 1 - Set Compiler, Server and Loaders
 
-
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
-
-## Site logo
-
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-```
-
-## Search
-
-```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
-
-# Enable support for hyphenated search words:
-search_tokenizer_separator: /[\s/]+/
+Open **webpack-config.js** file and add the following code.
+We configure the entry point for webpack to be main.js.
+Output path is where our app will be served.
+And we set our development server to listen on port 8001.
 
 ```
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-## Aux links
-
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
+module.exports = {
+   entry: './main.js',
+   output: {
+      path: path.join(__dirname, '/bundle'),
+      filename: 'index_bundle.js'
+   },
+   devServer: {
+      inline: true,
+      port: 8001
+   },
+   module: {
+      rules: [
+         {
+            test: /\.jsx?$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader',
+            query: {
+               presets: ['es2015', 'react']
+            }
+         }
+      ]
+   },
+   plugins:[
+      new HtmlWebpackPlugin({
+         template: './index.html'
+      })
+   ]
+}
 ```
 
-## Heading anchor links
+Open the **package.json** and delete **"test" "echo \"Error: no test specified\" && exit 1"** inside **"scripts"** object. We are deleting this line since we will not do any testing in this tutorial. Let's add the **start** and **build** commands instead.
 
-```yaml
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false/nil
-heading_anchors: true
+```
+"start": "webpack-dev-server --mode development --open --hot",
+"build": "webpack --mode production"
+```
+## Step 2 - index.html
+
+This is just regular HTML. We are setting **div id = "app"** as a root element for our app and adding **index_bundle.js** script, which is our bundled app file.
+
+```
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <meta charset = "UTF-8">
+      <title>React App</title>
+   </head>
+   <body>
+      <div id = "app"></div>
+      <script src = 'index_bundle.js'></script>
+   </body>
+</html>
 ```
 
-## Footer content
+## Step 3 - app.js and main.js
 
-```yaml
-# Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+This is the first React component. We will explain React components in depth in a subsequent chapter. This component will render **Hello World**.
+
+app.js
+```
+import React, { Component } from 'react';
+class App extends Component{
+   render(){
+      return(
+         <div>
+            <h1>Hello World</h1>
+         </div>
+      );
+   }
+}
+export default App;
 ```
 
-## Color scheme
+We need to import this component and render it to our root **App** element, so we can see it in the browser.
 
-```yaml
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: "dark"
+main.js
 ```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.js';
 
-<script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
+ReactDOM.render(<App />, document.getElementById('app'));
+```
+**Note** − Whenever you want to use something, you need to **import** it first. If you want to make the component usable in other parts of the app, you need to **export** it after creation and import it in the file where you want to use it.
 
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
+Create a file with name **.babelrc** and copy the following content to it.
 
-## Google Analytics
-
-```yaml
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-5555555-55
+```
+{
+   "presets":["env", "react"]
+}
 ```
