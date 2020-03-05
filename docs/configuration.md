@@ -23,7 +23,7 @@ We configure the entry point for webpack to be main.js.
 Output path is where our app will be served.
 And we set our development server to listen on port 8001.
 
-```
+```js
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -67,7 +67,7 @@ Open the **package.json** and delete **"test" "echo \"Error: no test specified\"
 
 This is just regular HTML. We are setting **div id = "app"** as a root element for our app and adding **index_bundle.js** script, which is our bundled app file.
 
-```
+```html
 <!DOCTYPE html>
 <html lang = "en">
    <head>
@@ -86,7 +86,7 @@ This is just regular HTML. We are setting **div id = "app"** as a root element f
 This is the first React component. We will explain React components in depth in a subsequent chapter. This component will render **Hello World**.
 
 app.js
-```
+```js
 import React, { Component } from 'react';
 class App extends Component{
    render(){
@@ -103,7 +103,7 @@ export default App;
 We need to import this component and render it to our root **App** element, so we can see it in the browser.
 
 main.js
-```
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js';
