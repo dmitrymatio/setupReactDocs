@@ -6,10 +6,10 @@ description: "Introduction."
 permalink: /
 ---
 
-# How To setup react environment with nodeJS on your computer.
+# How To Setup React Environment With NodeJS on your Computer.
 
 {: .fs-6 .fw-300 }
-A complete documentation to setup yor own react environment
+A complete documentation to setup your own react environment.
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/emo8355/Simple-react-app){: .btn .fs-5 .mb-4 .mb-md-0 }
 
@@ -32,8 +32,10 @@ By the end of this guide, you will
 This guide is suitable for Windows 10, Linux, macOS user. In order to follow the documentation, you will need to have nodeJS install in your computer, if you don't have it installed, [check it here](https://nodejs.org/en/download/).
 
 ### Prerequisites
-
-### Mouse Conventions
+- Basic knowledge of HTML, CSS, and JavaScript.
+- Basic understanding of ES6 features.
+- Basic understanding of how to use the terminal.
+- Basic understanding of how to use npm.
 
 ### Typographical Convention
 
