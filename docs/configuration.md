@@ -110,7 +110,14 @@ import App from './App.js';
 
 ReactDOM.render(<App />, document.getElementById('app'));
 ```
-**Note** − Whenever you want to use something, you need to **import** it first. If you want to make the component usable in other parts of the app, you need to **export** it after creation and import it in the file where you want to use it.
+<br>
+<div style="margin-left: 50px; display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/dmitrymatio/setupReactDocs/gh-pages/docs/img/iconfinder_v-31_3162614.png"
+      alt="note"
+      style=" margin-right: 30px; width: 52px;" />
+      <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note:  </strong>Whenever you want to use something, you need to **import** it first. If you want to make the component usable in other parts of the app, you need to **export** it after creation and import it in the file where you want to use it.</article>
+</div>
+<br>
 
 Create a file with name **.babelrc** and copy the following content to it.
 
