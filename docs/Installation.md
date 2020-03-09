@@ -85,7 +85,7 @@ After you type the code, you should see this in your "Terminal".
 
 Your **package.json** should look like this.
 
-```Json
+```json
 {
 	"name": "createReactApp",
 	"version": "1.0.0",
