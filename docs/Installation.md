@@ -23,8 +23,8 @@ A step by step instruction on how to install the required software for setting u
       style=" margin-right: 30px; width: 52px;" />
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>The following step requires you to have basic knowledge about HTML CSS and Javascript. Moreover, a basic understanding of ES6 features, such as let, const, arrow function.</article>
 </div>
-<br>
- 
+
+
 ## Step 1 - create a root folder
 
 > Open your "Terminal" and enter the following code.
@@ -36,11 +36,10 @@ A step by step instruction on how to install the required software for setting u
 > $ open .
 > ```
 
-
 At this point, you should have a empty folder call "createReactApp"
 
 ![screenshot one](./img/1.png)
-<br>
+
 
 ## Step 2 - create **package.json** file
 
@@ -55,13 +54,10 @@ After this `npm init -y`, you will see this in your "Terminal".
 
 ![screenshot two](./img/2.png)
 
-<br>
-
 After this step , you will have this in your "createReactApp" folder.
 
 ![screenshot three](./img/3.png)
 
-<br>
 
 ## Step 3 - install React and react dom
 
@@ -108,6 +104,7 @@ After this step , you will have this in your "createReactApp" folder.
 
 ![screenshot five](./img/5.png)
 
+
 ## Step 4 - install webpack
 
 (Webpack) is an open-source software that bundle **JavaScript** with the browser. (Webpack Dev Server) used as a HTTP server for serving files while developing. (webpack-cli) a command language that use with (webpack).
@@ -149,6 +146,7 @@ After this step, your **package.json** should look like this:
 	}
 }
 ```
+
 
 ## Step 5 - install babel
 
@@ -198,6 +196,7 @@ Or you can just use one comment
 ```bash 
 $ npm install babel-core babel-loader babel-preset-env babel-preset-react html-webpack-plugin --save-dev
 ```
+
 
 ## Step 6 - Create files
 
