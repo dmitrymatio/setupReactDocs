@@ -31,3 +31,7 @@ Comment at below:
 ```bash
 $ npm start
 ```
+
+In "http://localhost:8001/" you will see this.
+
+![screenshot 7](./img/7.png)
