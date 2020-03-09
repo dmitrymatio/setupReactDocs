@@ -27,14 +27,14 @@ A step by step instruction on how to install the required software for setting u
 
 ## Step 1 - create a root folder
 
-> Open your "Terminal" and enter the following code.
-> 
-> ```bash
-> $ cd Desktop
-> $ mkdir createReactApp
-> $ cd creatReactApp
-> $ open .
-> ```
+Open your "Terminal" and enter the following code.
+ 
+```bash
+$ cd Desktop
+$ mkdir createReactApp
+$ cd creatReactApp
+$ open .
+```
 
 At this point, you should have a empty folder call "createReactApp"
 
@@ -64,16 +64,16 @@ After this step , you will have this in your "createReactApp" folder.
 The (react) package provides the necessary method to define React components.
 The (react-dom) package provides DOM-specific(client side) methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to. 
 
-> ```bash
-> $ npm i react --save
-> $ npm i react-dom --save
-> ```
->
-> Or you can just use one command
->
-> ```bash 
-> $ npm i react react-dom --save
-> ```
+```bash
+$ npm i react --save
+$ npm i react-dom --save
+```
+
+Or you can just use one command
+
+```bash 
+$ npm i react react-dom --save
+```
 
 After you type the code, you should see this in your "Terminal".
 
@@ -109,19 +109,19 @@ After this step , you will have this in your "createReactApp" folder.
 
 (Webpack) is an open-source software that bundle **JavaScript** with the browser. (Webpack Dev Server) used as a HTTP server for serving files while developing. (webpack-cli) a command language that use with (webpack).
 
-> In you "Terminal: "
-> 
-> ```bash
-> $ npm install webpack --save
-> $ npm install webpack-dev-server --save
-> $ npm install webpack-cli --save
-> ```
-> 
-> Or you can just use one command
->
-> ```bash
-> $ npm install webpack webpack-dev-server webpack-cli --save
-> ```
+In you "Terminal: "
+ 
+```bash
+$ npm install webpack --save
+$ npm install webpack-dev-server --save
+$ npm install webpack-cli --save
+```
+
+Or you can just use one command
+
+```bash
+$ npm install webpack webpack-dev-server webpack-cli --save
+```
 
 After this step, your **package.json** should look like this:
 
