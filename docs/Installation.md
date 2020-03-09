@@ -39,8 +39,8 @@ At this point, you should have a empty folder call "createReactApp"
 ![screenshot one](./img/1.png)
 
 
-## Step 2 - create package.json file
-Still in your "Terminal". To create any module or use any third-party library, it is required to generate a package.json file. This file contains a version of the module that you installed before. Moreover, if you want to share your folder with the other developer, they will know what package you used for this project.  
+## Step 2 - create **package.json** file
+Still in your "Terminal". To create any module or use any third-party library, it is required to generate a **package.json** file. This file contains a version of the module that you installed before. Moreover, if you want to share your folder with the other developer, they will know what package you used for this project.  
 
 ```bash
 $ npm init -y
@@ -71,7 +71,8 @@ $ npm i react react-dom --save
 After you type the code, you should see this in your "Terminal".
 ![screenshot four](./img/4.png)
 
-Your "package.json" should look like this.
+Your **package.json** should look like this.
+
 ```Json
 {
 	"name": "createReactApp",
@@ -109,7 +110,7 @@ Or you can just use one command
 $ npm install webpack webpack-dev-server webpack-cli --save
 ```
 
-After this step, your "package.json" should look like this:
+After this step, your **package.json** should look like this:
 
 ```json
 {
@@ -131,21 +132,21 @@ After this step, your "package.json" should look like this:
 		"webpack-dev-server": "^3.10.3"
 	}
 }
-
 ```
 
 ## Step 5 - install babel
 Babel is a compiler that you can write JavaScript code in the latest version, even when your supported environments don't support the syntax. And how babel does is that it will compile the code to the working version.
 
 ```bash
-$ npm install babel-core --save-dev
+$ npm add @babel/runtime --save-dev
+$ npm install @babel/core --save-dev
+$ npm install @babel/preset-react --save-dev
+$ npm install @babel/preset-env --save-dev
 $ npm install babel-loader --save-dev
-$ npm install babel-preset-env --save-dev
-$ npm install babel-preset-react --save-dev
 $ npm install html-webpack-plugin --save-dev
 ```
 
-After this step, you will see this in you "package.json".
+After this step, you will see this in you **package.json**.
 ```json
 {
 	"name": "createReactApp",
@@ -166,10 +167,10 @@ After this step, you will see this in you "package.json".
 		"webpack-dev-server": "^3.10.3"
 	},
 	"devDependencies": {
-		"babel-core": "^6.26.3",
-		"babel-loader": "^8.0.6",
-		"babel-preset-env": "^1.7.0",
-		"babel-preset-react": "^6.24.1",
+		"@babel/preset-react": "^7.8.3",
+		"@babel/core": "^7.8.7",
+		"@babel/preset-env": "^7.8.7",
+		"babel-loader": "^8.0.1",
 		"html-webpack-plugin": "^3.2.0"
 	}
 }

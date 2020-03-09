@@ -119,6 +119,7 @@ ReactDOM.render(<App />, document.getElementById('app'));
 </div>
 <br>
 
+In your "VsCode", open the **.babelrc** file
 Create a file with name **.babelrc** and copy the following content to it.
 
 ```

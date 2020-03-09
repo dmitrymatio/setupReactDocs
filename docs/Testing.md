@@ -1,0 +1,33 @@
+---
+layout: default
+title: Testing
+nav_order: 4
+---
+
+# Testing
+{: .no_toc }
+
+This section is to test whether the react environment you setup earlier is correctly configure.  {: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Testing one: Hello World
+In the last section, you already configure the **webpack** and the **babel**. Therefore, you can just type one comment in the "Terminal" to see whether the environment work or not.
+
+<div style="margin-left: 50px; display: flex; align-items: center;">
+    <img src="https://raw.githubusercontent.com/dmitrymatio/setupReactDocs/gh-pages/docs/img/iconfinder_v-31_3162614.png"
+      alt="note"
+      style=" margin-right: 30px; width: 52px;" />
+      <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>If there's a error occurred, please go to Troubleshooting section to look for "How to resolve".</article>
+</div><br>
+
+Comment at below:
+```bash
+$ npm start
+```
