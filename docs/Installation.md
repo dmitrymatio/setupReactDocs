@@ -7,7 +7,9 @@ nav_order: 2
 # Installation
 {: .no_toc }
 
-A step by step instruction on how to install the required software for setting up the react environment from scratch. By the end of this step you will have a empty react ready directory to work with. {: .fs-6 .fw-300 }
+A step by step instruction on how to install the required software for setting up the react environment from scratch. By the end of this step you will have a empty react ready directory to work with.
+
+{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }
