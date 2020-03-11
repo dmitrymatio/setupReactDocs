@@ -172,7 +172,7 @@ $ touch app.css
 
 After this step, you should see this in the left sidebar in your Vscode.
 
-![screenshot eight](./img/8.png)
+![screenshot eight](./img/8.PNG)
 
 
 ## Step 6 - Modify **App.js**
@@ -323,7 +323,7 @@ $ npm start
 
 After the build is done, you will see this in "http://localhost:8001/"
 
-![screenshot nine](./img/9.png)
+![screenshot nine](./img/9.PNG)
 
 
 # Congrats you have your first react page now
