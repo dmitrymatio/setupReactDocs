@@ -18,6 +18,7 @@ This section is to test whether the react environment you setup earlier is corre
 ---
 
 ## Testing one: Hello World
+
 In the last section, you already configure the **webpack** and the **babel**. Therefore, you can just type one comment in the "Terminal" to see whether the environment work or not.
 
 <div style="margin-left: 50px; display: flex; align-items: center;">
