@@ -17,8 +17,11 @@ This section will help you with troubleshooting errors in the environment.
 
 ---
 
-## Error: Cannot find module 'babel-preset-env' from '/Users/homerli/Desktop/Simple-react-app'<br>- Did you mean "@babel/env"?
+## Error: Cannot find module 'babel-preset-env'
 
+```
+Error: Cannot find module 'babel-preset-env' from '/Users/homerli/Desktop/Simple-react-app'<br>- Did you mean "@babel/env"?
+```
 How to solve: This happens because babel has updated their default setting in their package. Therefore, you need to change the **.babelrc** file to this
  
 ```json

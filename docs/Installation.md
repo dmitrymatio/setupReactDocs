@@ -40,11 +40,11 @@ $ open .
 At this point, you should have an empty folder called "createReactApp"
 
 ![screenshot one](./img/1.png)
-
+ 
 
 ## Step 2 - create **package.json** file
 
-We have to initilize npm by running the following code in yoour terminal. 
+We have to initialize npm by running the following code in your terminal. 
 This will create the **package.json** file.
 
 In your "Terminal:"
@@ -53,21 +53,20 @@ In your "Terminal:"
 $ npm init -y
 ```
 
+After this `npm init -y`, you will see this in your "Terminal".
+
+![screenshot two](./img/2.png)
+
+After this step, you will have this in your "createReactApp" folder.
+
+![screenshot three](./img/3.png)
+
 <div style="margin-left: 50px; display: flex; align-items: center;">
     <img src="https://raw.githubusercontent.com/dmitrymatio/setupReactDocs/gh-pages/docs/img/iconfinder_v-31_3162614.png"
       alt="note"
       style=" margin-right: 30px; width: 52px;" />
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>To create any module or use any third-party library, it is required to generate a <strong>package.json</strong> file. This file contains a version of the module that you installed before. Moreover, if you want to share your folder with the other developer, they will know what packages you used for this project. However, always create a .gitignore file and add "node_modules/" to its contents to avoid sending the actual packages back and forth.</article>
 </div>
-
-
-After this `npm init -y`, you will see this in your "Terminal".
-
-![screenshot two](./img/2.png)
-
-After this step , you will have this in your "createReactApp" folder.
-
-![screenshot three](./img/3.png)
 
 
 ## Step 3 - install **react** and **react dom**

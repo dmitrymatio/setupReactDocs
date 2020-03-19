@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Customize Enviornment
+title: Customize Environment
 nav_order: 5
 ---
 
@@ -153,7 +153,7 @@ In your **.babelrc** file, you need to change your **.babelrc** file to this
 
 This step is not very important, but it will be best if you want to keep your folder looks clean.
 
-Open your Vscode "Terminal" and start typing.
+Open your VSCode "Terminal" and start typing.
 
 ```bash
 $ mkdir App
@@ -169,6 +169,6 @@ $ touch app.css
 ##At last, you need to move your App.js in the App folder
 ```
 
-After this step, you should see this in the left sidebar in your Vscode.
+After this step, you should see this in the left sidebar in your VSCode.
 
 ![screenshot eight](./img/8.PNG)
