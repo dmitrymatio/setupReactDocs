@@ -7,7 +7,7 @@ nav_order: 3
 # Configuration
 {: .no_toc }
 
-The following are steps to configure the React environment.
+The following are steps needed to configure your react environment. By the end of these steps you will have a configured react enviornment ready for testing.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -54,9 +54,9 @@ module.exports = {
 }
 ```
 
-Open the **package.json** and delete **"test" "echo \"Error: no test specified\" && exit 1"** inside **"scripts"** object. We are deleting this line since we will not do any testing in this tutorial. Let's add the **start** and **build** commands instead.
+Open the **package.json** and delete **"test" "echo \"Error: no test specified\" && exit 1"** inside **"scripts"** object. We are deleting this line since we will not do any testing of our own code in this guide. Let's add the **start** and **build** commands instead.
 
-```
+```js
 "start": "webpack-dev-server --mode development --open --hot",
 "build": "webpack --mode production"
 ```
@@ -112,14 +112,13 @@ ReactDOM.render(<App />, document.getElementById('app'));
     <img src="https://raw.githubusercontent.com/dmitrymatio/setupReactDocs/gh-pages/docs/img/iconfinder_v-31_3162614.png"
       alt="note"
       style=" margin-right: 30px; width: 52px;" />
-      <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note:  </strong>Whenever you want to use something, you need to **import** it first. If you want to make the component usable in other parts of the app, you need to **export** it after creation and import it in the file where you want to use it.</article>
+      <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note:  </strong>Whenever you want to use something, you need to <strong>import</strong> it first. If you want to make the component usable in other parts of the app, you need to <strong>export</strong> it after creation and <strong>import</strong> it in the file where you want to use it.</article>
 </div>
 <br>
 
-In your "VsCode", open the **.babelrc** file
 Create a file with name **.babelrc** and copy the following content to it.
 
-```
+```js
 {
    "presets":["env", "react"]
 }

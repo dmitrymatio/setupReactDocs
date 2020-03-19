@@ -7,7 +7,7 @@ nav_order: 4
 # Testing
 {: .no_toc }
 
-This section is to test whether the react environment you setup earlier is correctly configure.  {: .fs-6 .fw-300 }
+The following are steps needed to test your react environment. By the end of these steps you will know if your react enviornment was successfully configured and ready for customization.
 
 ## Table of contents
 {: .no_toc .text-delta }

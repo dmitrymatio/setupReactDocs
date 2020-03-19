@@ -7,9 +7,7 @@ nav_order: 5
 # How to set up your first react page with JSX and CSS.
 {: .no_toc }
 
-This is a step by step instruction on how to build your first react page with JSX and css. Please follow the instruction thoroughly.
-
-{: .fs-6 .fw-300 }
+This is a step by step instruction on how to build your first react page with JSX and CSS. Please follow the instruction thoroughly.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -34,10 +32,10 @@ In order to add style in your website, you must install css-loader first. Its pu
     <img src="https://raw.githubusercontent.com/dmitrymatio/setupReactDocs/gh-pages/docs/img/iconfinder_v-31_3162614.png"
       alt="note"
       style=" margin-right: 30px; width: 52px;" />
-      <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>If you don't know how to access your "Terminal" in your Vscode. The shortcut is <i>Ctrl + i</i></article>
+      <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>If you don't know how to access your "Terminal" in your VSCode. The shortcut is <i>Ctrl + i</i></article>
 </div>
 <br>
-In your VScode "Terminal", and type
+In your VSCode "Terminal", and type
 
 ```bash
 $ npm install css-loader --save-dev

@@ -7,7 +7,7 @@ nav_order: 7
 # Troubleshooting
 {: .no_toc }
 
-This section is to show you what to do when you having a error in the code.  {: .fs-6 .fw-300 }
+This section will help you with troubleshooting errors in the environment.
 
 ## Table of contents
 {: .no_toc .text-delta }
