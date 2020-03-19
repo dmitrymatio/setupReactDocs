@@ -8,7 +8,7 @@ permalink: /
 
 # How To Setup React Environment With NodeJS on your Computer.
 
-{: .fs-6 .fw-300 }
+
 Beginner friendly guide to setting up your own react environment from scratch.
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/emo8355/Simple-react-app){: .btn .fs-5 .mb-4 .mb-md-0 }
