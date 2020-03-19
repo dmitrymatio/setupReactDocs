@@ -7,7 +7,9 @@ nav_order: 7
 # Glossary
 {: .no_toc }
 
-This section is to explain some of the frequently used terms in the guide.{: .fs-6 .fw-300 }
+This section is to explain some of the frequently used terms in the guide.
+
+{: .fs-6 .fw-300 }
 
 ---
 
