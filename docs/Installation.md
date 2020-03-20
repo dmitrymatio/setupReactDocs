@@ -40,7 +40,8 @@ $ open .
 At this point, you should have an empty folder called "createReactApp"
 
 ![screenshot one](./img/1.png)
- 
+
+--- 
 
 ## Create **package.json** file
 
@@ -68,6 +69,7 @@ After this step, you will have this in your "createReactApp" folder.
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>To create any module or use any third-party library, it is required to generate a <strong>package.json</strong> file. This file contains a version of the module that you installed before. Moreover, if you want to share your folder with the other developer, they will know what packages you used for this project. However, always create a .gitignore file and add "node_modules/" to its contents to avoid sending the actual packages back and forth.</article>
 </div>
 
+---
 
 ## Install **react** and **react dom**
 
@@ -124,6 +126,7 @@ After this step, you will have this in your "createReactApp" folder.
 
 ![screenshot five](./img/5.png)
 
+---
 
 ## Install **webpack**
 
@@ -167,6 +170,7 @@ After this step, your **package.json** should look like this:
 }
 ```
 
+---
 
 ## Install **babel**
 
@@ -220,6 +224,8 @@ After this step, you will see this in your **package.json**.
 }
 
 ```
+
+---
 
 ## Create files
 

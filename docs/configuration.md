@@ -63,6 +63,9 @@ We are deleting this line since we will not do any testing of our own code in th
 "start": "webpack-dev-server --mode development --open --hot",
 "build": "webpack --mode production"
 ```
+
+---
+
 ## Modify **index.html**
 
 This is just regular HTML. We are setting **div id = "app"** as a root element for our app and adding **index_bundle.js** script, which is our bundled app file.
@@ -82,6 +85,8 @@ This is just regular HTML. We are setting **div id = "app"** as a root element f
    </body>
 </html>
 ```
+
+---
 
 ## Modify **App.js** and **main.js**
 

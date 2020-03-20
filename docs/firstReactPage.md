@@ -17,11 +17,11 @@ The following are steps needed to create your first react page with JSX and CSS.
 
 ---
 
-## Step 1 - Modify **App.js**
+## Modify **App.js**
 
 Add new JSX code to make your own pages. JSX allows you to write HTML code in JavaScript way, without using syntax like createElement() or appendChild().
 
-Add code belows:
+1. Open your **App.js** and *enter* the code belows.
 
 ```js
 import React, { Component } from "react";
@@ -70,14 +70,17 @@ class App extends Component {
 export default App;
 ```
 
+---
 
-## Step 2 - Add style code
+## Add style code
 
 In this step, you will know how to add more css code to your own react project.
 
-Open you **app.css** file, and add more css code in it. At this stage, you can add more personal preference to the css code to make it more appealing.
+1. *Open* you **app.css** file, and *add* more css code in it. 
+   
+2. *Add* the code below:
 
-Add code below:
+At this stage, you can add more personal preference to the css code to make it more appealing.
 
 ```css
 .project_title {
@@ -106,12 +109,13 @@ Add code below:
 }
 ```
 
+---
 
-## Step 3 - Add JavaScript to **userInput.js** file
+## *Add* JavaScript to **userInput.js** file
 
 At this step, you will need to add more JSX code in your **userInput.js** file. In your **userInput.js**, and add some JSX in it. 
 
-Add code below:
+1. Open the **userInput.js** and add the following code below.
 
 ```js
 import React from "react";
@@ -132,12 +136,13 @@ export default userInput;
 
 ```
 
+---
 
-## Step 4 - Add JavaScript to **userOutput.js** file
+## Add JavaScript to **userOutput.js** file
 
 At this step, you will need to add more JSX code in your **userOutput.js** file. In your **userOutput.js**, and add some JSX in it. 
 
-Add code below:
+1. Open the **userOutput.js** and add the following code below.
 
 ```js
 import React from "react";
@@ -154,10 +159,11 @@ const userOutput = props => {
 export default userOutput;
 ```
 
+---
 
-## Step 5 - npm start
+## *Run* npm start
 
-At this step and also your last step, open your VScode "Terminal, " and start typing.
+1. Open your VScode "Terminal" and start typing.
 
 ```bash
 $ npm start
@@ -165,7 +171,8 @@ $ npm start
 
 After the build is done, you will see this in "http://localhost:8001/"
 
+## Congrats you have your first react page now
+
 ![screenshot nine](./img/9.PNG)
 
 
-## Congrats you have your first react page now
