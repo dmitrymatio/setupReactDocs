@@ -25,7 +25,7 @@ The following are steps needed to customize and configure your react environment
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>Please follow the guide thoroughly, otherwise, it may not work as expected.</article>
 </div>
 
-## Step 1 - Install loader
+## Install loader
  
 In order to add style in your website, you must install css-loader first. Its purpose is to load the CSS file.
 <br>
@@ -35,8 +35,9 @@ In order to add style in your website, you must install css-loader first. Its pu
       style=" margin-right: 30px; width: 52px;" />
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>If you don't know how to access your "Terminal" in your VSCode. The shortcut is <i>Ctrl + i</i></article>
 </div>
-<br>
-In your VSCode "Terminal", and type
+<br/>
+
+1. Open your VSCode "Terminal", and *enter* the following code.
 
 ```bash
 $ npm install css-loader --save-dev
@@ -77,23 +78,25 @@ After installation, your **package.json** should look like this
 } 
 ```
 
+---
 
-## Step 2 - Change your **webpack.config.js** file
+## Change your **webpack.config.js** file
 
 To use the package you just installed, you need to change you **webpack.config.js** file.
 
-In your **webpack.config.js** file, you need to add this in the rule section.
+1. Open your **webpack.config.js** file, you need to *add* this in the rule section.
 
 ```json
 { test: /\.css$/, loader: ["style-loader", "css-loader"] }
 ```
 
+---
 
-## Step 3 - Install babel plugin
+## Install babel plugin
 
 Because we are using the class base react in this instruction; therefore, in order to use class components, we need to install a babel plugin.
 
-In your VScode "Terminal", and type
+1. Open your VSCode "Terminal", and *enter* the following code.
 
 ```bash
 $ npm install @babel/plugin-proposal-class-properties --save-dev
@@ -134,12 +137,13 @@ After installation, your **package.json** should look like this
 } 
 ```
 
+---
 
-## Step 4 - Configure the **.babelrc** file
+## Configure the **.babelrc** file
 
 In order to make usage of the babel plugin, we need to add a configuration to the **.babelrc** file. 
 
-In your **.babelrc** file, you need to change your **.babelrc** file to this
+1. Open your **.babelrc** file, you need to change your **.babelrc** file to the following code.
 
 ```json
 {
@@ -148,12 +152,13 @@ In your **.babelrc** file, you need to change your **.babelrc** file to this
 }
 ```
 
+---
 
-## Step 5 - Create folders and files
+## Create folders and files
 
 This step is not very important, but it will be best if you want to keep your folder looks clean.
 
-Open your VSCode "Terminal" and start typing.
+1. Open your VSCode "Terminal", and *enter* the following code.
 
 ```bash
 $ mkdir App

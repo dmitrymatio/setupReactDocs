@@ -9,7 +9,6 @@ nav_order: 6
 
 The following are steps needed to create your first react page with JSX and CSS. By the end of these steps your will build a react page with JSX and CSS.
 
-
 ## Table of contents
 {: .no_toc .text-delta }
 

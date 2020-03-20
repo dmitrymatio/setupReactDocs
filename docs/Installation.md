@@ -28,7 +28,7 @@ The following are steps needed to install the required software for setting up t
 
 ## Create a root folder
 
-1. Open your "Terminal" and enter the following code.
+1. Open your "Terminal" and *enter* the following code.
  
 ```bash
 $ cd Desktop
@@ -47,7 +47,7 @@ At this point, you should have an empty folder called "createReactApp"
 We have to initialize npm by running the following code in your terminal. 
 This will create the **package.json** file.
 
-1. Open your "Terminal" and enter the following code.
+1. Open your "Terminal" and *enter* the following code.
 
 ```bash
 $ npm init -y
@@ -74,7 +74,7 @@ After this step, you will have this in your "createReactApp" folder.
 The (react) package provides the necessary method to define React components.
 The (react-dom) package provides DOM-specific(client side) methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to. 
 
-1. Open your "Terminal" and enter the following code.
+1. Open your "Terminal" and *enter* the following code.
 
 ```bash
 $ npm i react --save
@@ -93,7 +93,7 @@ After you type the code, you should see this in your "Terminal".
 
 Now open "VSCode" to view and edit the file contents of the project folder.
 
-2. Still in your "Terminal" and enter the following code.
+2. Still in your "Terminal" and *enter* the following code.
 
 ```bash
 $ code .
@@ -129,7 +129,7 @@ After this step, you will have this in your "createReactApp" folder.
 
 (Webpack) is an open-source software that bundles **JavaScript** with the browser. (Webpack Dev Server) used as an HTTP server for serving files while developing. (webpack-cli) a command language that's used with (webpack).
 
-1. Open your "Terminal" and enter the following code.
+1. Open your "Terminal" and *enter* the following code.
  
 ```bash
 $ npm install webpack --save
@@ -172,7 +172,7 @@ After this step, your **package.json** should look like this:
 
 (Babel) is a compiler that allows you to write JavaScript code in the latest version, even when your environments don't support the latest syntax. (Babel) will compile the code you write to the working version of the environment.
 
-1. Open your "Terminal" and enter the following code.
+1. Open your "Terminal" and *enter* the following code.
 
 ```bash
 $ npm install @babel/runtime --save-dev
@@ -225,7 +225,7 @@ After this step, you will see this in your **package.json**.
 
 At this step, you will need to create files that are needed for configuration.
 
-1. Open your "Terminal" and enter the following code.
+1. Open your "Terminal" and *enter* the following code.
  
 ```bash
 $ touch index.html

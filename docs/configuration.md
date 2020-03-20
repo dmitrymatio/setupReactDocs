@@ -67,7 +67,7 @@ We are deleting this line since we will not do any testing of our own code in th
 
 This is just regular HTML. We are setting **div id = "app"** as a root element for our app and adding **index_bundle.js** script, which is our bundled app file.
 
-1. Open the **index.html** and enter the following code.
+1. Open the **index.html** and *enter* the following code.
 
 ```html
 <!DOCTYPE html>
@@ -87,7 +87,7 @@ This is just regular HTML. We are setting **div id = "app"** as a root element f
 
 This is the first React component. We will explain React components in depth in a subsequent chapter. This component will render **Hello World**.
 
-1. Open the **App.js** and enter the following code.
+1. Open the **App.js** and *enter* the following code.
 
 **App.js**
 ```js
@@ -106,7 +106,7 @@ export default App;
 
 We need to import this component and render it to our root **App** element, so we can see it in the browser.
 
-2. Open the **main.js** and enter the following code.
+2. Open the **main.js** and *enter* the following code.
 
 **main.js**
 ```js
@@ -125,7 +125,7 @@ ReactDOM.render(<App />, document.getElementById('app'));
 </div>
 <br>
 
-3. Open the **.babelrc** copy the following content to it.
+3. Open the **.babelrc** *copy* the following content to it.
 
 ```js
 {
