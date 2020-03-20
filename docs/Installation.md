@@ -26,9 +26,9 @@ The following are steps needed to install the required software for setting up t
 </div> -->
 
 
-## Step 1 - create a root folder
+## Create a root folder
 
-Open your "Terminal" and enter the following code.
+1. Open your "Terminal" and enter the following code.
  
 ```bash
 $ cd Desktop
@@ -42,12 +42,12 @@ At this point, you should have an empty folder called "createReactApp"
 ![screenshot one](./img/1.png)
  
 
-## Step 2 - create **package.json** file
+## Create **package.json** file
 
 We have to initialize npm by running the following code in your terminal. 
 This will create the **package.json** file.
 
-In your "Terminal:"
+1. Open your "Terminal" and enter the following code.
 
 ```bash
 $ npm init -y
@@ -69,12 +69,12 @@ After this step, you will have this in your "createReactApp" folder.
 </div>
 
 
-## Step 3 - install **react** and **react dom**
+## Install **react** and **react dom**
 
 The (react) package provides the necessary method to define React components.
 The (react-dom) package provides DOM-specific(client side) methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to. 
 
-In your "Terminal:"
+1. Open your "Terminal" and enter the following code.
 
 ```bash
 $ npm i react --save
@@ -93,7 +93,7 @@ After you type the code, you should see this in your "Terminal".
 
 Now open "VSCode" to view and edit the file contents of the project folder.
 
-In your "Terminal:"
+2. Still in your "Terminal" and enter the following code.
 
 ```bash
 $ code .
@@ -125,11 +125,11 @@ After this step, you will have this in your "createReactApp" folder.
 ![screenshot five](./img/5.png)
 
 
-## Step 4 - install **webpack**
+## Install **webpack**
 
 (Webpack) is an open-source software that bundles **JavaScript** with the browser. (Webpack Dev Server) used as an HTTP server for serving files while developing. (webpack-cli) a command language that's used with (webpack).
 
-In your "Terminal:"
+1. Open your "Terminal" and enter the following code.
  
 ```bash
 $ npm install webpack --save
@@ -168,14 +168,14 @@ After this step, your **package.json** should look like this:
 ```
 
 
-## Step 5 - install **babel**
+## Install **babel**
 
 (Babel) is a compiler that allows you to write JavaScript code in the latest version, even when your environments don't support the latest syntax. (Babel) will compile the code you write to the working version of the environment.
 
-In your "Terminal:"
+1. Open your "Terminal" and enter the following code.
 
 ```bash
-$ npm add @babel/runtime --save-dev
+$ npm install @babel/runtime --save-dev
 $ npm install @babel/core --save-dev
 $ npm install @babel/preset-react --save-dev
 $ npm install @babel/preset-env --save-dev
@@ -186,7 +186,7 @@ $ npm install html-webpack-plugin --save-dev
 Or you can just use one command:
 
 ```bash 
-$ npm install babel-core babel-loader babel-preset-env babel-preset-react html-webpack-plugin --save-dev
+$ npm install @babel/runtime @babel/core @babel/preset-react @babel/preset-env babel-loader html-webpack-plugin --save-dev
 ```
 
 After this step, you will see this in your **package.json**.
@@ -210,26 +210,35 @@ After this step, you will see this in your **package.json**.
 		"webpack-dev-server": "^3.10.3"
 	},
 	"devDependencies": {
-		"@babel/preset-react": "^7.8.3",
 		"@babel/core": "^7.8.7",
-		"@babel/preset-env": "^7.8.7",
-		"babel-loader": "^8.0.1",
-		"html-webpack-plugin": "^3.2.0"
+    	"@babel/preset-env": "^7.8.7",
+    	"@babel/preset-react": "^7.8.3",
+    	"@babel/runtime": "^7.8.7",
+    	"babel-loader": "^8.0.6",
+    	"html-webpack-plugin": "^3.2.0"
 	}
 }
 
 ```
 
-## Step 6 - Create files
+## Create files
 
 At this step, you will need to create files that are needed for configuration.
 
+1. Open your "Terminal" and enter the following code.
+ 
 ```bash
 $ touch index.html
 $ touch App.js
 $ touch main.js
 $ touch webpack.config.js
 $ touch .babelrc
+```
+
+Or you can just use one command:
+
+```bash 
+$ touch index.html App.js main.js webpack.config.js .babelrc
 ```
 
 After this step, you will have this in you "createReactApp" folder.

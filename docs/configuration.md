@@ -16,12 +16,13 @@ The following are steps needed to configure your react environment. By the end o
 {:toc}
 
 ---
-## Step 1 - Set Compiler, Server and Loaders
+## Set Compiler, Server and Loaders
 
-Open **webpack-config.js** file and add the following code.
 We configure the entry point for webpack to be main.js.
 Output path is where our app will be served.
 And we set our development server to listen on port 8001.
+
+1. Open **webpack-config.js** file and add the following code.
 
 ```js
 const path = require('path');
@@ -54,15 +55,19 @@ module.exports = {
 }
 ```
 
-Open the **package.json** and delete **"test" "echo \"Error: no test specified\" && exit 1"** inside **"scripts"** object. We are deleting this line since we will not do any testing of our own code in this guide. Let's add the **start** and **build** commands instead.
+2. Open the **package.json** and delete **"test" "echo \"Error: no test specified\" && exit 1"** inside **"scripts"** object.
+
+We are deleting this line since we will not do any testing of our own code in this guide. Let's add the **start** and **build** commands instead.
 
 ```js
 "start": "webpack-dev-server --mode development --open --hot",
 "build": "webpack --mode production"
 ```
-## Step 2 - index.html
+## Modify **index.html**
 
 This is just regular HTML. We are setting **div id = "app"** as a root element for our app and adding **index_bundle.js** script, which is our bundled app file.
+
+1. Open the **index.html** and enter the following code.
 
 ```html
 <!DOCTYPE html>
@@ -78,11 +83,13 @@ This is just regular HTML. We are setting **div id = "app"** as a root element f
 </html>
 ```
 
-## Step 3 - app.js and main.js
+## Modify **App.js** and **main.js**
 
 This is the first React component. We will explain React components in depth in a subsequent chapter. This component will render **Hello World**.
 
-app.js
+1. Open the **App.js** and enter the following code.
+
+**App.js**
 ```js
 import React, { Component } from 'react';
 class App extends Component{
@@ -99,7 +106,9 @@ export default App;
 
 We need to import this component and render it to our root **App** element, so we can see it in the browser.
 
-main.js
+2. Open the **main.js** and enter the following code.
+
+**main.js**
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -116,7 +125,7 @@ ReactDOM.render(<App />, document.getElementById('app'));
 </div>
 <br>
 
-Create a file with name **.babelrc** and copy the following content to it.
+3. Open the **.babelrc** copy the following content to it.
 
 ```js
 {
