@@ -93,8 +93,7 @@ This is just regular HTML. We are setting **div id = "app"** as a root element f
 This is the first React component. We will explain React components in depth in a subsequent chapter. This component will render **Hello World**.
 
 1. *Open* the **App.js** and *enter* the following code.
-
-**App.js**
+   **App.js**
 > ```js
 > import React, { Component } from 'react';
 > class App extends Component{
@@ -109,11 +108,9 @@ This is the first React component. We will explain React components in depth in 
 > export default App;
 > ```
 
-We need to *import* this component and render it to our root **App** element, so we can see it in the browser.
-
+  We need to *import* this component and render it to our root **App** element, so we can see it in the browser.
 2. *Open* the **main.js** and *enter* the following code.
-
-**main.js**
+   **main.js**
 > ```js
 > import React from 'react';
 > import ReactDOM from 'react-dom';
@@ -132,8 +129,7 @@ We need to *import* this component and render it to our root **App** element, so
 <br>
 
 3. *Open* the **.babelrc** *copy* the following content to it.
-
-> ```js
+   > ```js
 > {
 >    "presets":["env", "react"]
 > }
