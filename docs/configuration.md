@@ -57,7 +57,7 @@ And we set our development server to listen on port 8001.
 
 2. *Open* the **package.json** and *delete* **"test" "echo \"Error: no test specified\" && exit 1"** inside **"scripts"** object.
 
-We are *deleting* this line since we will not do any testing of our own code in this guide. Let's *add* the **start** and **build** commands instead.
+  We are *deleting* this line since we will not do any testing of our own code in this guide. Let's *add* the **start** and **build** commands instead.
 
 > ```js
 > "start": "webpack-dev-server --mode development --open --hot",
@@ -70,7 +70,7 @@ We are *deleting* this line since we will not do any testing of our own code in 
 
 This is just regular HTML. We are setting **div id = "app"** as a root element for our app and adding **index_bundle.js** script, which is our bundled app file.
 
-1. Open the **index.html** and *enter* the following code.
+- Open the **index.html** and *enter* the following code.
 
 > ```html
 > <!DOCTYPE html>
