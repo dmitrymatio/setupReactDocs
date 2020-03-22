@@ -124,7 +124,7 @@ This is the first React component. We will explain React components in depth in 
  
    <br>
    <div style="margin-left: 50px; display: flex; align-items: center;">
-       <img src="https://raw.githubusercontent.com/dmitrymatio/setupReactDocs/ gh-pages/docs/img/iconfinder_v-31_3162614.png"
+       <img src="https://raw.githubusercontent.com/dmitrymatio/setupReactDocs/gh-pages/docs/img/iconfinder_v-31_3162614.png"
        alt="note"
        style=" margin-right: 30px; width: 52px;" />
        <article style="border: 2px solid black; box-sizing: border-box; padding:  5px;"> 
