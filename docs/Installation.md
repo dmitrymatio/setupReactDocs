@@ -83,12 +83,11 @@ The (react-dom) package provides DOM-specific(client side) methods that can be u
 
 2. Still in your "Terminal" and *enter* the following code.
 
-   After you type the code, you should see this in your "Terminal".
+After you type the code, you should see this in your "Terminal".
    
-   ![screenshot four](./img/4.png)
+![screenshot four](./img/4.png)
    
-   Now *open* "VSCode" to view and *edit* the file contents of the project folder.
-   
+Now *open* "VSCode" to view and *edit* the file contents of the project folder.
    
    > ```bash
    > $ code .

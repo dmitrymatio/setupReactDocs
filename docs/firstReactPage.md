@@ -21,7 +21,7 @@ The following are steps needed to create your first react page with JSX and CSS.
 
 *Add* new JSX code to make your own pages. JSX allows you to write HTML code in JavaScript way, without using syntax like createElement() or appendChild().
 
-1. *Open* your **App.js** and *enter* the code belows.
+- *Open* your **App.js** and *enter* the code belows.
 
 > ```js
 > import React, { Component } from "react";
@@ -115,7 +115,7 @@ At this stage, you can *add* more personal preference to the css code to make it
 
 At this step, you will need to add more JSX code in your **userInput.js** file. In your **userInput.js**, and add some JSX in it. 
 
-1. Open the **userInput.js** and add the following code below.
+- Open the **userInput.js** and add the following code below.
 
 > ```js
 > import React from "react";
@@ -142,7 +142,7 @@ At this step, you will need to add more JSX code in your **userInput.js** file. 
 
 At this step, you will need to add more JSX code in your **userOutput.js** file. In your **userOutput.js**, and add some JSX in it. 
 
-1. Open the **userOutput.js** and add the following code below.
+- Open the **userOutput.js** and add the following code below.
 
 > ```js
 > import React from "react";
@@ -163,7 +163,7 @@ At this step, you will need to add more JSX code in your **userOutput.js** file.
 
 ## *Run* npm start
 
-1. Open your VScode "Terminal" and start typing.
+- Open your VScode "Terminal" and start typing.
 
 > ```bash
 > $ npm start
