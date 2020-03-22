@@ -129,8 +129,9 @@ This is the first React component. We will explain React components in depth in 
 <br>
 
 3. *Open* the **.babelrc** *copy* the following content to it.
+   
    > ```js
-> {
->    "presets":["env", "react"]
-> }
-> ```
+   > {
+   >    "presets":["env", "react"]
+   > }
+   > ```
