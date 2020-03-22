@@ -95,24 +95,24 @@ Now *open* "VSCode" to view and *edit* the file contents of the project folder.
 
 Your **package.json** should look like this.
 
-```json
-{
-	"name": "createReactApp",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"react": "^16.13.0",
-		"react-dom": "^16.13.0"
-	}
-}
-```
+> ```json
+> {
+> 	"name": "createReactApp",
+> 	"version": "1.0.0",
+> 	"description": "",
+> 	"main": "index.js",
+> 	"scripts": {
+> 		"test": "echo \"Error: no test specified\" && exit 1"
+> 	},
+> 	"keywords": [],
+> 	"author": "",
+> 	"license": "ISC",
+> 	"dependencies": {
+> 		"react": "^16.13.0",
+> 		"react-dom": "^16.13.0"
+> 	}
+> }
+> ```
 
 After this step, you will have this in your "createReactApp" folder.
 
@@ -140,27 +140,27 @@ Or you can just use one command:
 
 After this step, your **package.json** should look like this:
 
-```json
-{
-	"name": "createReactApp",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"react": "^16.13.0",
-		"react-dom": "^16.13.0",
-		"webpack": "^4.42.0",
-		"webpack-cli": "^3.3.11",
-		"webpack-dev-server": "^3.10.3"
-	}
-}
-```
+> ```json
+> {
+> 	"name": "createReactApp",
+> 	"version": "1.0.0",
+> 	"description": "",
+> 	"main": "index.js",
+> 	"scripts": {
+> 		"test": "echo \"Error: no test specified\" && exit 1"
+> 	},
+> 	"keywords": [],
+> 	"author": "",
+> 	"license": "ISC",
+> 	"dependencies": {
+> 		"react": "^16.13.0",
+> 		"react-dom": "^16.13.0",
+> 		"webpack": "^4.42.0",
+> 		"webpack-cli": "^3.3.11",
+> 		"webpack-dev-server": "^3.10.3"
+> 	}
+> }
+> ```
 
 ---
 
