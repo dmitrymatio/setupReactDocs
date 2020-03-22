@@ -27,36 +27,37 @@ This guide is created for people who want to setup a barebones react environment
 
 By the end of this guide, you will
 
-- create a react ready environment
-- customize your own react environment
-- code a simple react app
+> - create a react ready environment
+> - customize your own react environment
+> - code a simple react app
 
 ### Software Versions
 
 This guide is suitable for Windows 10, Linux, macOS user. In order to follow the documentation, you will need to have nodeJS install in your computer, if you don't have it installed, [Get it here](https://nodejs.org/en/download/).
 
 ### Prerequisites
-- Laptop or PC with Windows 10, Linux, or macOS
-- Bash terminal or bash emulator installed
-- Latest version of VSCode installed
-- Latest version of NodeJS installed 
-- Basic knowledge of HTML, CSS, and JavaScript.
-- Basic understanding of ES6 features.
-- Basic understanding of how to use the terminal.
-- Basic understanding of how to use npm.
+
+> - Laptop or PC with Windows 10, Linux, or macOS
+> - Bash terminal or bash emulator installed
+> - Latest version of VSCode installed
+> - Latest version of NodeJS installed 
+> - Basic knowledge of HTML, CSS, and JavaScript.
+> - Basic understanding of ES6 features.
+> - Basic understanding of how to use the terminal.
+> - Basic understanding of how to use npm.
 
 ### Typographical Convention
 
 These instruction use the following typographic conventions:
 
-| Convention Explanation                                                                                                                                    | Examples                                                |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Commands & Actions:<br><br> We italicize commands or actions you must execute                                                                 | <i>Copy, paste, Save As, Quit, Return, Press, Click</i> |
+| Convention Explanation                                                                                                                                     | Examples                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Commands & Actions:<br><br> We italicize commands or actions you must execute                                                                              | <i>Copy, paste, Save As, Quit, Return, Press, Click</i> |
 | Menu & Button Sequence: <br><br> Menu and button will get enclosed by square brackets. The `>` will indicate the button click flow of the buttons or menu. | [File] > [New File]                                     |
-| Windows:<br><br> General window and Dialog window will get enclosed by double quotation mark                                                              | "Terminal"                                              |
-| Single line of Code:<br><br> Code that runs within the terminal will get highlighted                                                              | `npm i nodemon --save-dev`                              |
-| Software:<br><br> Software that needs to be downloaded in local machine will get enclosed by rounded brackets                                                   | (nodemon)                                               |
-| File Name:<br><br>File name that needs to be modified in your local machine will get bolded.                                                                    | **App.js**, **package.json**                            |
+| Windows:<br><br> General window and Dialog window will get enclosed by double quotation mark                                                               | "Terminal"                                              |
+| Single line of Code:<br><br> Code that runs within the terminal will get highlighted                                                                       | `npm i nodemon --save-dev`                              |
+| Software:<br><br> Software that needs to be downloaded in local machine will get enclosed by rounded brackets                                              | (nodemon)                                               |
+| File Name:<br><br>File name that needs to be modified in your local machine will get bolded.                                                               | **App.js**, **package.json**                            |
 
 ### Note & Warning message
 

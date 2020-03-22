@@ -28,10 +28,11 @@ In the last section, you already configure the **webpack** and the **babel**. Th
       <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"> <strong>Note: </strong>If there's a error occurred, please go to Troubleshooting section to look for "How to resolve".</article>
 </div><br>
 
-Comment at below:
-```bash
-$ npm start
-```
+1. *Open* your "Vscode Terminal" and *enter* the following code.
+
+> ```bash
+> $ npm start
+> ```
 
 In "http://localhost:8001/" you will see this.
 
