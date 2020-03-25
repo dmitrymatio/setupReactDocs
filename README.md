@@ -1,6 +1,6 @@
-# Report of how we finish our user guide: 
+# Report of how we written our user guide: 
 
-Editor:
+Editors:
 - Ruihao/Homer li
 - Dmitry Matiouchenko
 ---
@@ -8,12 +8,16 @@ Theme and style guide:
 - Theme: Jekyll theme:  [just-the-doc](https://github.com/pmarsceill/just-the-docs).
 - Style guide: [DigitalOcean](https://www.digitalocean.com/community/tutorials/digitalocean-s-technical-writing-guidelines)
 ---
-Tool we used:
+Tools we used:
 - Terminal
 - Vscode
 - Slack
 - Zoom
----  
+---
+Sources:
+https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
+https://reactjs.org/
+---
 ## Why do we choose this topic for our guide?
 Create-React-App abstracts the entire setup process and is too restrictive and bloated with extras files/folders.
 It's important to be aware of the setup process to troubleshoot or customize the environment in the future.
