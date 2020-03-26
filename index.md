@@ -1,96 +1,78 @@
 ---
 layout: default
-title: Home
+title: Introduction
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Introduction."
 permalink: /
 ---
 
-# Focus on writing good documentation
-{: .fs-9 }
+# How To Setup React Environment With NodeJS on your Computer.
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+Beginner friendly guide to setting up your own react environment from scratch.
+
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/emo8355/Simple-react-app){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 ## Getting started
 
-### Dependencies
+### Introduction
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+The purpose of this guide is to teach you how to setup a barebones React environment. React is a JavaScript framework for building user interfaces, or the front end, created and maintained by Facebook. React is one of the most popular JavaScript frameworks, and React's main advantage is that it's scalable, simple, and fast.
 
-### Quick start: Use as a GitHub Pages remote theme
+### Is This Guide for You?
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+This guide is created for people who want to setup a barebones react environment from scratch. By having a detailed step by step instructions with visual explanations, you will learn how to setup the environment and build a simple react app.
 
-### Local installation: Use the gem-based theme
+By the end of this guide, you will
 
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
+> - create a react ready environment
+> - customize your own react environment
+> - code a simple react app
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+### Software Versions
 
-### Configure Just the Docs
+This guide is suitable for Windows 10, Linux, macOS user. In order to follow the documentation, you will need to have nodeJS install in your computer, if you don't have it installed, [Get it here](https://nodejs.org/en/download/).
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+### Prerequisites
 
----
+> - Laptop or PC with Windows 10, Linux, or macOS
+> - Bash terminal or bash emulator installed
+> - Latest version of VSCode installed
+> - Latest version of NodeJS installed 
+> - Basic knowledge of HTML, CSS, and JavaScript.
+> - Basic understanding of ES6 features.
+> - Basic understanding of how to use the terminal.
+> - Basic understanding of how to use npm.
 
-## About the project
+### Typographical Convention
 
-Just the Docs is &copy; 2017-2019 by [Patrick Marsceill](http://patrickmarsceill.com).
+These instruction use the following typographic conventions:
 
-### License
+| Convention Explanation                                                                                                                                     | Examples                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Commands & Actions:<br><br> We italicize commands or actions you must execute                                                                              | <i>Copy, paste, Save As, Quit, Return, Press, Click</i> |
+| Menu & Button Sequence: <br><br> Menu and button will get enclosed by square brackets. The `>` will indicate the button click flow of the buttons or menu. | [File] > [New File]                                     |
+| Windows:<br><br> General window and Dialog window will get enclosed by double quotation mark                                                               | "Terminal"                                              |
+| Single line of Code:<br><br> Code that runs within the terminal will get highlighted                                                                       | `npm i nodemon --save-dev`                              |
+| Software:<br><br> Software that needs to be downloaded in local machine will get enclosed by rounded brackets                                              | (nodemon)                                               |
+| File Name:<br><br>File name that needs to be modified in your local machine will get bolded.                                                               | **App.js**, **package.json**                            |
 
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+### Note & Warning message
 
-### Contributing
+This guide uses notes and warning message to convey additional information about an instructional step.
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
-
-#### Thank you to the contributors of Just the Docs!
-
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
-
-### Code of Conduct
-
-Just the Docs is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+<div style="margin-left: 50px; display: flex; align-items: center;">
+    <img src="./img/iconfinder_v-31_3162614.png"
+      alt="note"
+      style=" margin-right: 30px; width: 64px;" />
+      <article style="border: 2px solid black; box-sizing: border-box; padding: 5px;"><strong>Note: </strong>Notes provide additional information about a step. The message will be enclosed in a 2px width solid line box, and the note icon is an "i" inside a hollow circle.</article>
+</div>
+<br>
+<div style="margin-left: 50px; display: flex; align-items: center;">
+    <img src="./img/iconfinder_alert_1282954.png"
+      alt="alert"
+      style=" margin-right: 30px; width: 64px;" />
+      <article style="border: 2px dashed black; box-sizing: border-box; padding: 5px;"><strong>Warning: </strong>Warnings provide information about instructions that can cause an error or permanent data loss. The message will be enclosed in a 2px wide dashed box, and the warning icon is an "!" inside a red triangle and red circle.</article>
+</div>
