@@ -15,8 +15,8 @@ Tools we used:
 - Zoom
 ---
 Sources:
-[tutorialspoint react setup](https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm)
-[React's official page](https://reactjs.org/)
+- [React's official page](https://reactjs.org/)
+- [Tutorialspoint's react setup tutorial](https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm)
 ---
 ## Why do we choose this topic for our guide?
 Create-React-App abstracts the entire setup process and is too restrictive and bloated with extras files/folders.
